@@ -64,7 +64,7 @@ def create_3d_box(l, w, h):
         mode='text',
         text=[f'L: {l}mm', f'W: {w}mm', f'H: {h}mm'],
         textposition=['bottom center', 'bottom center', 'middle left'],
-        textfont=dict(size=14, color='red'),
+        textfont=dict(size=14, color='white'),
         hoverinfo='none'
     ))
 
